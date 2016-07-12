@@ -19,9 +19,6 @@ public final class R {
         public static final int rectangle=0x7f020005;
     }
     public static final class id {
-        public static final int even_more_help=0x7f060012;
-        public static final int give_up=0x7f060013;
-        public static final int help=0x7f060010;
         public static final int help_guide=0x7f060001;
         public static final int itemBrushWidth=0x7f060009;
         public static final int itemBrushWidth3=0x7f06000a;
@@ -37,7 +34,6 @@ public final class R {
         public static final int itemSaveImage=0x7f06000e;
         public static final int itemShapes=0x7f060002;
         public static final int itemShareImage=0x7f06000f;
-        public static final int more_help=0x7f060011;
         public static final int text_view=0x7f060000;
     }
     public static final class layout {
@@ -46,7 +42,6 @@ public final class R {
     public static final class menu {
         public static final int context_menu=0x7f050000;
         public static final int menu=0x7f050001;
-        public static final int top_menu=0x7f050002;
     }
     public static final class string {
         public static final int app_name=0x7f040000;

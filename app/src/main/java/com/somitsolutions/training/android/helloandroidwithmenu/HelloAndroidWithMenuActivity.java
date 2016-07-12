@@ -12,6 +12,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class HelloAndroidWithMenuActivity extends Activity {
+
+	private boolean isChecked = false;
+
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
@@ -31,13 +34,15 @@ public class HelloAndroidWithMenuActivity extends Activity {
 		inflater.inflate(R.menu.menu, menu);
 		return true;
 	}
-	
+
 	// Process clicks on Options Menu items
 		@Override
 		public boolean onOptionsItemSelected(MenuItem item) {
 			
 			switch(item.getItemId()){
 			case R.id.itemLine:
+				isChecked = !item.isChecked();
+				item.setChecked(isChecked);
 				Toast.makeText(getApplicationContext(), "You have chosen Line", Toast.LENGTH_SHORT).show();
 				return true;
 
